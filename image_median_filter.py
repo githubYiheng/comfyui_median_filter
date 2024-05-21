@@ -24,7 +24,7 @@ class ImageMedianFilter:
         return {
             "required": {
                 "image": ("IMAGE", ),
-                "diameter": ("INT", {"default": 20}),
+                "diameter": ("INT", {"default": 9}),
             },
         }
 
