@@ -33,7 +33,7 @@ class ImageMedianFilter:
     FUNCTION = "apply_median_filter"
     CATEGORY = "Tools"
 
-    def medianFilter(img, diameter):
+    def medianFilter(self, img, diameter):
         # Convert diameter to an odd integer
         diameter = int(diameter)
         if diameter % 2 == 0:
