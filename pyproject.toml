@@ -1,0 +1,14 @@
+[project]
+name = "comfyui_median_filter"
+description = "Nodes:Apply Median Filter"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/githubYiheng/comfyui_median_filter"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_median_filter"
+Icon = ""
